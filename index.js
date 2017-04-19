@@ -24,7 +24,7 @@ module.exports = {
         "eqeqeq": 2,
 
         // 	disallow trailing commas
-        "comma-dangle": 2,
+        "comma-dangle": [2, "never"],
 
         // enforce consistent indentation of 4 spaces
         "indent": [ "error", 4 ],
