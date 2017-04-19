@@ -48,6 +48,9 @@ module.exports = {
         "no-undef": 0,
         "no-unused-vars": 2,
 
+        // enforce consistent spacing inside braces
+        "object-curly-spacing": [2, "always"],
+
         // require semicolons instead of ASI
         "semi": 2,
 
