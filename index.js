@@ -1,4 +1,5 @@
 module.exports = {
+    "parser": "babel-eslint",
     "parserOptions": {
         "ecmaFeatures": {
             "jsx": true
@@ -43,8 +44,8 @@ module.exports = {
         // allow irregular whitespace outside of strings and comments
         "no-irregular-whitespace": 0,
 
-        // disallow the use of undeclared and unused variables
-        "no-undef": 2,
+        // allow the use of undeclared and disallow use of unused variables
+        "no-undef": 0,
         "no-unused-vars": 2,
 
         // require semicolons instead of ASI

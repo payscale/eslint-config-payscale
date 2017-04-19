@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "scripts": {
@@ -25,6 +25,7 @@
   "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
   "peerDependencies": {
       "eslint": ">= 3",
-      "eslint-plugin-react": ">= 5"
+      "eslint-plugin-react": ">= 5",
+      "babel-eslint": ">= 6"
   }
 }
