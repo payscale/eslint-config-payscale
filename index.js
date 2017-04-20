@@ -46,7 +46,7 @@ module.exports = {
 
         // allow the use of undeclared and disallow use of unused variables
         "no-undef": 0,
-        "no-unused-vars": 2,
+        "no-unused-vars": [2, { "args": "none", "ignoreRestSiblings": true }],
 
         // enforce consistent spacing inside braces
         "object-curly-spacing": [2, "always"],
@@ -132,7 +132,7 @@ module.exports = {
         "react/no-unknown-property": 1,
 
         // prevent missing props validation in a React component definition
-        "react/prop-types": 2,
+        "react/prop-types": [2, { "ignore": ["children"] }],
 
         // prevent missing React when using JSX
         "react/react-in-jsx-scope": 0,
