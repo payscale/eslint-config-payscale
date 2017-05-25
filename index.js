@@ -37,11 +37,11 @@ module.exports = {
         // disallow the use of debugger
         "no-debugger": 2,
 
-        // 	disallow unnecessary semicolons
-        "no-extra-semi": 2,
-
         // 	disallow unnecessary parentheses only around function expressions
         "no-extra-parens": [ 2, "functions" ],
+
+        //  disallow unnecessary semicolons
+        "no-extra-semi": 2,
 
         // allow irregular whitespace outside of strings and comments
         "no-irregular-whitespace": 0,
