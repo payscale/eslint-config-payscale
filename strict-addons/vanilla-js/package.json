@@ -1,0 +1,35 @@
+{
+  "name": "eslint-config-payscale-vanilla",
+  "version": "0.0.1",
+  "description": "PayScale's eslint rules for vanilla js",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.npmjs.com"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/payscale/eslint-config-payscale.git"
+  },
+  "keywords": [
+    "eslint",
+    "config",
+    "lint",
+    "linter",
+    "eslintconfig",
+    "vanilla"
+  ],
+  "author": "NateW",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/payscale/eslint-config-payscale/issues"
+  },
+  "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
+  "peerDependencies": {
+      "eslint": ">= 3",
+      "eslint-plugin-react": ">= 5",
+      "babel-eslint": ">= 6"
+  }
+}
