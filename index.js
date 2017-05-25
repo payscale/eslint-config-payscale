@@ -109,6 +109,9 @@ module.exports = {
         // [revent variables used in JSX to be incorrectly marked as unused
         "react/jsx-uses-vars": 2,
 
+        // prevent missing parentheses around multilines JSX
+        "react/jsx-wrap-multilines": 2,
+
         // allow usage of dangerous JSX properties
         "react/no-danger": 0,
 
@@ -144,8 +147,5 @@ module.exports = {
 
         // enforce component methods order
         "react/sort-comp": 2,
-
-        // prevent missing parentheses around multilines JSX
-        "react/jsx-wrap-multilines": 2
       }
 };
