@@ -20,8 +20,10 @@ module.exports = {
         "react"
     ],
     "rules": {
-        // require the use of === and !==
-        "eqeqeq": 2,
+        // require the use of === and !==, except in certain cases
+        // where it makes sense to use == and !=
+        // http://eslint.org/docs/rules/eqeqeq
+        "eqeqeq": ["error", "smart"],
 
         // 	disallow trailing commas
         "comma-dangle": [2, "never"],
