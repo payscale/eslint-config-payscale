@@ -144,6 +144,6 @@ module.exports = {
         "react/sort-comp": 2,
 
         // prevent missing parentheses around multilines JSX
-        "react/wrap-multilines": 2
+        "react/jsx-wrap-multilines": 2
       }
 };
