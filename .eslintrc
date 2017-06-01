@@ -1,0 +1,6 @@
+{
+  "extends": [
+  	"./index.js",
+  	"./strict-addons/vanilla-js/index.js"
+  ]
+}
