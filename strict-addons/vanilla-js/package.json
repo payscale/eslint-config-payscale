@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale-vanilla",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PayScale's eslint rules for vanilla js",
   "main": "index.js",
   "publishConfig": {
