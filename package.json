@@ -1,10 +1,10 @@
 {
   "name": "eslint-config-payscale",
-  "version": "0.0.5",
+  "version": "0.0.6",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {
-    "registry": "https://registry.npmjs.com"
+    "registry": "https://registry.npmjs.org"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
