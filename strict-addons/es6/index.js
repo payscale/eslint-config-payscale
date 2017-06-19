@@ -77,6 +77,58 @@ module.exports = {
         }],
 
         // require let or const instead of var
-        'no-var': 'error'
+        'no-var': 'error',
+
+        // require method and property shorthand syntax for object literals
+        // http://eslint.org/docs/rules/object-shorthand
+        'object-shorthand': ['error', 'always', {
+            ignoreConstructors: false,
+            avoidQuotes: true
+        }],
+
+        // suggest using arrow functions as callbacks
+        'prefer-arrow-callback': ['error', {
+            allowNamedFunctions: false,
+            allowUnboundThis: true
+        }],
+
+        // suggest using of const declaration for variables that are never modified after declared
+        'prefer-const': ['error', {
+            destructuring: 'any',
+            ignoreReadBeforeAssign: true
+        }],
+
+        // disallow parseInt() in favor of binary, octal, and hexadecimal literals
+        // http://eslint.org/docs/rules/prefer-numeric-literals
+        'prefer-numeric-literals': 'error',
+
+
+        // suggest using the spread operator instead of .apply()
+        // http://eslint.org/docs/rules/prefer-spread
+        'prefer-spread': 'error',
+
+        // suggest using template literals instead of string concatenation
+        // http://eslint.org/docs/rules/prefer-template
+        'prefer-template': 'error',
+
+        // disallow generator functions that do not have yield
+        // http://eslint.org/docs/rules/require-yield
+        'require-yield': 'error',
+
+        // enforce spacing between object rest-spread
+        // http://eslint.org/docs/rules/rest-spread-spacing
+        'rest-spread-spacing': ['error', 'never'],
+
+        // require a Symbol description
+        // http://eslint.org/docs/rules/symbol-description
+        'symbol-description': 'error',
+
+        // enforce usage of spacing in template strings
+        // http://eslint.org/docs/rules/template-curly-spacing
+        'template-curly-spacing': 'error',
+
+        // enforce spacing around the * in yield* expressions
+        // http://eslint.org/docs/rules/yield-star-spacing
+        'yield-star-spacing': ['error', 'after']
     }
 };
