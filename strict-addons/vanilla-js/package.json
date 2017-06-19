@@ -29,7 +29,6 @@
   "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
   "peerDependencies": {
       "eslint": ">= 3",
-      "eslint-plugin-react": ">= 5",
       "babel-eslint": ">= 6"
   }
 }
