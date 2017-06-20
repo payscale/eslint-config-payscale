@@ -1,7 +1,7 @@
 {
-  "name": "eslint-config-payscale-vanilla",
-  "version": "0.0.2",
-  "description": "PayScale's eslint rules for vanilla js",
+  "name": "eslint-config-payscale-es6",
+  "version": "0.0.1",
+  "description": "PayScale's eslint rules for ES6",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
@@ -19,7 +19,7 @@
     "lint",
     "linter",
     "eslintconfig",
-    "vanilla"
+    "es6"
   ],
   "author": "NateW",
   "license": "Apache-2.0",
