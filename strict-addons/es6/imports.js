@@ -74,7 +74,6 @@ module.exports = {
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-mutable-exports.md
         'import/no-mutable-exports': 'error',
 
-
         // disallow require()
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-commonjs.md
         'import/no-commonjs': 'off',
@@ -124,6 +123,6 @@ module.exports = {
 
         // Prevent importing the default as if it were named
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-named-default.md
-        'import/no-named-default': 'error',
+        'import/no-named-default': 'error'
     }
 };
