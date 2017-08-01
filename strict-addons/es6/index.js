@@ -3,6 +3,9 @@ module.exports = {
     env: {
         es6: true
     },
+    extends: [
+        './imports.js'
+    ],
     parserOptions: {
         ecmaVersion: 6,
         sourceType: 'module',

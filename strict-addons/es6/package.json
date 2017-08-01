@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale-es6",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "PayScale's eslint rules for ES6",
   "main": "index.js",
   "publishConfig": {
@@ -29,6 +29,7 @@
   "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
   "peerDependencies": {
       "eslint": ">= 3",
-      "babel-eslint": ">= 6"
+      "babel-eslint": ">= 6",
+      "eslint-plugin-import": "^2.7.0"
   }
 }
