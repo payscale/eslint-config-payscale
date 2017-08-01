@@ -37,11 +37,11 @@ module.exports = {
 
         // ensure named imports coupled with named exports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/named.md
-        'import/named': 'warn',
+        'import/named': 'error',
 
         // ensure default import coupled with default export
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/default.md
-        'import/default': 'warn',
+        'import/default': 'error',
 
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/namespace.md
         'import/namespace': 'error',
@@ -88,7 +88,7 @@ module.exports = {
 
         // disallow non-import statements appearing before import statements
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/first.md
-        'import/first': ['warn', 'absolute-first'],
+        'import/first': ['error', 'absolute-first'],
 
         // disallow duplicate imports
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/no-duplicates.md
@@ -96,7 +96,7 @@ module.exports = {
 
         // Ensure consistent use of file extension within the import path
         // https://github.com/benmosher/eslint-plugin-import/blob/master/docs/rules/extensions.md
-        'import/extensions': ['warn', 'always', {
+        'import/extensions': ['error', 'always', {
             js: 'never',
             jsx: 'never'
         }],
