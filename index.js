@@ -60,7 +60,7 @@ module.exports = {
         'semi-spacing': 2,
 
         // require single quotes where possible and allow strings to use backtick
-        'quotes': [2, 'single', { 'allowTemplateLiterals': true }],
+        'quotes': [2, 'single', { 'allowTemplateLiterals': true, 'avoidEscape': true }],
 
         // 	enforce valid JSDoc comments
         'valid-jsdoc': [
