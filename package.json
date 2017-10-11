@@ -1,13 +1,13 @@
 {
   "name": "eslint-config-payscale",
-  "version": "0.0.8",
+  "version": "0.0.9",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
   },
   "scripts": {
-      "lint": "eslint . --fix --quiet"
+    "lint": "eslint . --fix --quiet"
   },
   "repository": {
     "type": "git",
@@ -27,8 +27,8 @@
   },
   "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
   "peerDependencies": {
-      "eslint": ">= 3",
-      "eslint-plugin-react": ">= 5",
-      "babel-eslint": ">= 6"
+    "eslint": ">= 3",
+    "eslint-plugin-react": ">= 5",
+    "babel-eslint": ">= 6"
   }
 }
