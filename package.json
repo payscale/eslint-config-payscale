@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {
@@ -13,13 +13,7 @@
     "type": "git",
     "url": "git+https://github.com/payscale/eslint-config-payscale.git"
   },
-  "keywords": [
-    "eslint",
-    "config",
-    "lint",
-    "linter",
-    "eslintconfig"
-  ],
+  "keywords": ["eslint", "config", "lint", "linter", "eslintconfig"],
   "author": "NicoleC",
   "license": "Apache-2.0",
   "bugs": {
