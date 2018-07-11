@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale",
-  "version": "0.0.9",
+  "version": "1.0.0",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {
@@ -30,5 +30,8 @@
     "eslint": ">= 3",
     "eslint-plugin-react": ">= 5",
     "babel-eslint": ">= 6"
+  },
+  "dependencies": {
+    "eslint-config-defaults": "9.0.0"
   }
 }
