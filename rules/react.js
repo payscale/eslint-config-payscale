@@ -28,16 +28,16 @@ module.exports = {
     // prevent React to be incorrectly marked as unused
     "react/jsx-uses-react": "error",
 
-    // [revent variables used in JSX to be incorrectly marked as unused
+    // prevent variables used in JSX to be incorrectly marked as unused
     "react/jsx-uses-vars": "error",
 
     // prevent missing parentheses around multilines JSX
     "react/jsx-wrap-multilines": "error",
 
-    // prevent usage of setState in componentDidMount
-    "react/no-did-mount-set-state": "error",
+    // warn usage of setState in componentDidMount
+    "react/no-did-mount-set-state": "warn",
 
-    // prevent uage of setSate in componentDidUpdate
+    // prevent usage of setState in componentDidUpdate
     "react/no-did-update-set-state": "error",
 
     // prevent direct mutation of this.state
@@ -49,6 +49,7 @@ module.exports = {
     // warn on usage of unknown DOM property
     "react/no-unknown-property": "warn",
 
+    // prefer stateless function over components
     "react/prefer-stateless-function": "error",
 
     // prevent missing props validation in a React component definition
