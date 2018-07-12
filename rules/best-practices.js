@@ -204,14 +204,7 @@ module.exports = {
     "no-unsafe-negation": "error",
 
     // disallow usage of expressions in statement position
-    "no-unused-expressions": [
-      "error",
-      {
-        allowShortCircuit: false,
-        allowTernary: false,
-        allowTaggedTemplates: false
-      }
-    ],
+    "no-unused-expressions": "error",
 
     // disallow unused labels
     // http://eslint.org/docs/rules/no-unused-labels
@@ -239,6 +232,10 @@ module.exports = {
 
     // disallow use of the with statement
     "no-with": "error",
+
+    // disallow parseInt() in favor of binary, octal, and hexadecimal literals
+    // http://eslint.org/docs/rules/prefer-numeric-literals
+    "prefer-numeric-literals": "error",
 
     // require use of the second argument for parseInt()
     radix: "error",
