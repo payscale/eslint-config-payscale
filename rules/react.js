@@ -17,7 +17,7 @@ module.exports = {
     "react/jsx-curly-spacing": "error",
 
     // do not enforce consistent props indentation
-    "react/jsx-indent-props": "error",
+    "react/jsx-indent-props": ["error", 2],
 
     // prevent duplicate props in JSX
     "react/jsx-no-duplicate-props": "error",
