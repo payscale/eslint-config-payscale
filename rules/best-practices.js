@@ -8,7 +8,7 @@ module.exports = {
 
     // error when variables used outside defined scope
     // https://eslint.org/docs/rules/block-scoped-var#rule-details
-    "block-scope-var": "error",
+    "block-scoped-var": "error",
 
     // enforce that class methods use "this"
     // http://eslint.org/docs/rules/class-methods-use-this
