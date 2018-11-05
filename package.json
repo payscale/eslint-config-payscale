@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {

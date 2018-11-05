@@ -9,7 +9,7 @@ module.exports = {
     // http://eslint.org/docs/rules/no-control-regex
     "no-constant-condition": "warn",
 
-    // 	disallow unnecessary parentheses only around function expressions
+    // disallow unnecessary parentheses only around function expressions
     "no-extra-parens": ["error", "functions"],
 
     // Avoid code that looks like two expressions but is actually one

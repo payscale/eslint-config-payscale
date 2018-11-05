@@ -4,7 +4,7 @@ module.exports = {
   rules: {
     // enforce consistent indentation of 2 spaces
     // https://eslint.org/docs/rules/indent
-    indent: ["error", 2],
+    indent: ["error", 2, { "SwitchCase": 1 }],
 
     // enforce consistent spacing inside braces
     "object-curly-spacing": ["error", "always"],
