@@ -1,6 +1,6 @@
 {
   "name": "eslint-config-payscale",
-  "version": "1.0.6",
+  "version": "1.1.0",
   "description": "PayScale's sharable eslint config",
   "main": "index.js",
   "publishConfig": {
@@ -27,11 +27,9 @@
   },
   "homepage": "https://github.com/payscale/eslint-config-payscale#readme",
   "peerDependencies": {
-    "eslint": ">= 3",
-    "eslint-plugin-react": ">= 5",
-    "babel-eslint": ">= 6"
+    "babel-eslint": ">= 6",
+    "eslint": ">= 4",
+    "eslint-plugin-react": ">= 7"
   },
-  "dependencies": {
-    "eslint-config-defaults": "9.0.0"
-  }
+  "dependencies": {}
 }
