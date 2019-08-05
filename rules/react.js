@@ -13,9 +13,6 @@ module.exports = {
       }
     ],
 
-    // enforce shorthand or standard form for React fragments 
-    "react/jsx-fragments": ["error", "syntax"],
-
     // enforce spaces between curly braces
     "react/jsx-curly-spacing": "error",
 
